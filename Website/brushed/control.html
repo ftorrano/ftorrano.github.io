@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <p>Redirecting... Do not close this tab... Initiating Lockdown</p>
+    <p>© Copyright 2016, Amrit Baveja. All Rights Reserved</p>
+    <button id='redirect' onclick='tyrome()'>tyrome</button>
+    <script>
+        window.onload = function(){
+            document.getElementById('redirect').click();
+        }
+               function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
+tyrome = function(){
+wait(500)
+win = window.open('Website/brushed/index.html')
+wait(17000)
+win.close();
+}
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
